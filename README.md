@@ -3,7 +3,7 @@ Docker based ML / CV project skeleton
 ## Download Weights
 Clone new project and Download " [yolo3_final.weights]() " to "weights/yolo_campus/" in cloned vision-campus project
 ## Download Dataset
-Download dataset and necessary files from " [datasets and files]() " to "/resources/" in cloned vision-campus project
+Download dataset and necessary files from " [datasets and files]() " to "resources/" in cloned vision-campus project
 ## Create Development Environment in PyCharm
 Create run/debug configurations with below settings in PyCharm
 ### Add Docker Server
