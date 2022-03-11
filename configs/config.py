@@ -1,31 +1,35 @@
-# -*- coding: utf-8 -*-
+# -- coding: utf-8 --
 """Model config in json format"""
 
-CFG = {
+CFG_CAMPUS = {
     "data": {
-        "path": "oxford_iiit_pet:3.2.0",
-        "image_size": 128,
-        "load_with_info": True
+        "path": {
+            "weight":"/opt/project/weights/yolo_campus/yolov3_final.weights",
+            "cfg":"/opt/project/weights/yolo_campus/yolov3.cfg",
+            "obj":"/opt/project/weights/yolo_campus/obj.names"
+        },
+        "image_size": None,
+        "load_with_info": None
     },
     "train": {
-        "batch_size": 64,
-        "buffer_size": 1000,
-        "epoches": 20,
-        "val_subsplits": 5,
+        "batch_size": None,
+        "buffer_size": None,
+        "epoches": None,
+        "val_subsplits": None,
         "optimizer": {
             "type": "adam"
         },
         "metrics": ["accuracy"]
     },
     "model": {
-        "input": [128, 128, 3],
+        "input": None,
         "up_stack": {
-            "layer_1": 512,
-            "layer_2": 256,
-            "layer_3": 128,
-            "layer_4": 64,
-            "kernels": 3
+            "layer_1": None,
+            "layer_2": None,
+            "layer_3": None,
+            "layer_4": None,
+            "kernels": None
         },
-        "output": 3
+        "output": None
     }
 }
