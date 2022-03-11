@@ -1,0 +1,12 @@
+A Kapisi Kuzey
+A Kapisi Dogu
+A Kapisi Guney
+A Kapisi Bati
+havuz Kuzey
+havuz Dogu
+havuz Guney
+havuz Bati
+iletisim fakultesi Kuzey
+iletisim fakultesi Dogu
+iletisim fakultesi Guney
+iletisim fakultesi Bati
