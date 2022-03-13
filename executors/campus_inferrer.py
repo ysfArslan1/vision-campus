@@ -43,7 +43,7 @@ class CampusInferrer:
 
     def final_prediction(self, img):
 
-        path_txt = "weights/yolo_campus/obj .txt"
+        path_txt = self.config.data.path.obj
         with open(path_txt) as f:
             contents = f.readlines()
         f.close()

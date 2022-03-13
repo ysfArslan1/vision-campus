@@ -6,7 +6,7 @@ CFG_CAMPUS = {
         "path": {
             "weight":"/opt/project/weights/yolo_campus/yolov3_final.weights",
             "cfg":"/opt/project/weights/yolo_campus/yolov3.cfg",
-            "obj":"/opt/project/weights/yolo_campus/obj.names"
+            "obj":"/opt/project/weights/yolo_campus/obj.txt"
         },
         "image_size": None,
         "load_with_info": None
