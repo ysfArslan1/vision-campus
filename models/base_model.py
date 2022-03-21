@@ -2,7 +2,6 @@
 """Abstract base model"""
 
 from abc import ABC, abstractmethod
-
 from utils.config import Config
 
 
